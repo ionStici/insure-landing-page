@@ -1,24 +1,25 @@
 import { NavBar } from './components/NavBar';
 import { Hero } from './components/Hero';
 import { Features } from './components/Features';
+import { Cta } from './components/Cta';
 
 function App() {
     return (
         <>
             <NavBar links={['How we work', 'Blog', 'Account', 'View plans']} />
             <Hero />
+
             <main>
                 <Features />
+                <Cta />
             </main>
+
+            <footer></footer>
         </>
     );
 }
 
 export default App;
-
-//   Find out more about how we work
-
-//   How we work
 
 //   Our company
 
