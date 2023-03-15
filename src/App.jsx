@@ -1,18 +1,16 @@
 import { NavBar } from './components/NavBar';
+import { Hero } from './components/Hero';
 
 function App() {
-    return <NavBar links={['How we work', 'Blog', 'Account', 'View plans']} />;
+    return (
+        <>
+            <NavBar links={['How we work', 'Blog', 'Account', 'View plans']} />
+            <Hero />
+        </>
+    );
 }
 
 export default App;
-
-//   Humanizing your insurance.
-
-//   Get your life insurance coverage easier and faster. We blend our expertise
-//   and technology to help you find the plan that’s right for you. Ensure you
-//   and your loved ones are protected.
-
-//   View plans
 
 //   We’re different
 
