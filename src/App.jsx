@@ -3,8 +3,15 @@ import { Hero } from './components/Hero';
 import { Features } from './components/Features';
 import { Cta } from './components/Cta';
 import { Footer } from './components/Footer';
+import { ErrorComponent } from './components/ErrorComp';
+import {
+    RouterProvider,
+    Route,
+    createBrowserRouter,
+    createRoutesFromElements,
+} from 'react-router-dom';
 
-function App() {
+const Root = function () {
     return (
         <>
             <NavBar links={['How we work', 'Blog', 'Account', 'View plans']} />
@@ -22,6 +29,16 @@ function App() {
             />
         </>
     );
+};
+
+const router = createBrowserRouter(
+    createRoutesFromElements(
+        <Route path="/" element={<Root />} errorElement={<ErrorComponent />} />
+    )
+);
+
+function App() {
+    return <RouterProvider router={router} />;
 }
 
 export default App;

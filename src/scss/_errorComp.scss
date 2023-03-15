@@ -1,0 +1,29 @@
+.error {
+    font-family: var(--font-karla);
+    text-align: center;
+    padding: 100px 0;
+
+    max-width: 300px;
+    margin: 0 auto;
+
+    &__h2 {
+        margin-bottom: 10px;
+    }
+
+    &__p {
+    }
+
+    div {
+        text-align: left;
+        margin-bottom: 16px;
+    }
+
+    &__link,
+    &__link:link,
+    &__link:visited {
+        color: #007fff;
+        font-weight: 400;
+        text-decoration: none;
+        padding-left: 12px;
+    }
+}
