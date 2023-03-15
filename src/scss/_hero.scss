@@ -56,16 +56,22 @@
             position: absolute;
             z-index: 2;
 
-            right: 0;
-            top: 105px;
+            // top: 105px;
+            // right: 0;
+
+            right: 24px;
+            top: 250px;
+
             order: 2;
             width: 400px;
+        }
 
-            @media only screen and (min-width: 1158px) {
-                width: 540px;
-                height: 650px;
-                right: 24px;
-            }
+        @media only screen and (min-width: 1158px) {
+            width: 540px;
+            height: 650px;
+
+            top: 105px;
+            right: 24px;
         }
     }
 

@@ -15,6 +15,18 @@
         width: 150px;
         height: 1px;
         background-color: hsla(296, 30%, 68%, 1);
+
+        @media only screen and (min-width: 768px) {
+            left: 24px;
+            transform: revert;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        max-width: 1170px;
+        text-align: left;
+        padding: 63px 30px 0 30px;
+        margin-bottom: 158px;
     }
 
     &__h2 {
@@ -26,14 +38,41 @@
         letter-spacing: -0.666667px;
 
         margin-bottom: 80px;
+
+        @media only screen and (min-width: 768px) {
+            font-size: 72px;
+            line-height: 64px;
+            letter-spacing: -1px;
+
+            margin-bottom: 96px;
+        }
     }
 
     &__wrapper {
+        @media only screen and (min-width: 768px) {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
     }
 
     &__box {
         &:not(:last-child) {
             margin-bottom: 56px;
+
+            @media only screen and (min-width: 768px) {
+                margin-bottom: 0;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            // max-width: 350px;
+            max-width: 339px;
+        }
+
+        @media only screen and (min-width: 800px) {
+            max-width: 350px;
         }
     }
 
