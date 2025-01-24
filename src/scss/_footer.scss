@@ -58,6 +58,8 @@
     }
 
     &__icon {
+        cursor: pointer;
+
         &:not(:last-child) {
             margin-right: 16px;
         }
@@ -113,6 +115,10 @@
         font-size: 13px;
         line-height: 15px;
         letter-spacing: 1.5px;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 
     // // // // // // // // // // // // // // //

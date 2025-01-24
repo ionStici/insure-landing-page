@@ -1,28 +1,37 @@
 # Insure landing page solution
 
-This is a solution to the [Insure landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8).
+This is a solution to the [Insure landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-<!-- ### Primary
+## About the Project
 
--   Dark Violet: hsl(256, 26%, 20%)
--   Grayish Blue: hsl(216, 30%, 68%)
+The "Insure Landing Page" is a Frontend Mentor challenge aimed at creating an engaging landing page for an insurance company. This project was crafted using React with Vite for a swift development environment and Scss for styling, focusing on delivering a modern and user-friendly experience.
 
-### Neutral
+## Preview and Links
 
--   Very Dark Violet: hsl(270, 9%, 17%)
--   Dark Grayish Violet: hsl(273, 4%, 51%)
--   Very Light Gray: hsl(0, 0%, 98%)
+<details>
+<summary><b>Open Preview</b></summary>
+<br>
 
-## Typography
+![](./preview.png)
 
--   Font size: 16px
+<br>
+</details>
 
-### Headings
+| View it live: | [Live Demo URL](https://ionstici.github.io/insure-landing-page/) | [Frontend Mentor](https://www.frontendmentor.io/solutions/insure-landing-page-ehFGCjU3yS) |
+| ------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 
--   Family: [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display)
--   Weights: 400
+## Features
 
-### Body
+- **Modern Design:** A contemporary look tailored for an insurance service.
+- **Responsive Layout:** Ensures optimal viewing experience on all devices.
+- **Interactive Elements:** Includes subtle animations and hover effects for enhanced user interaction.
 
--   Family: [Karla](https://fonts.google.com/specimen/Karla)
--   Weights: 400, 700 -->
+## Tech Stack
+
+- **React:** For component-based development.
+- **Vite:** To provide a fast and efficient development setup.
+- **Scss:** For styling, allowing for modular and maintainable CSS.
+
+## Deployment
+
+This project uses **GitHub Pages** for hosting.
